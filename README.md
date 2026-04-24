@@ -1,5 +1,6 @@
 # Darija N-gram Language Model
 
+
 A probabilistic n-gram language model trained on Moroccan Darija, supporting both Arabic script and Latin script (Arabizi). Built to run in Google Colab with data loaded directly from Google Drive.
 
 
