@@ -6,19 +6,12 @@ A probabilistic n-gram language model trained on Moroccan Darija, supporting bot
 
 ## What it does
 
-It reads your Darija text files from Google Drive, trains an n-gram language model on them, evaluates it using perplexity, and generates new Darija sentences.
+It reads the Darija text files from Google Drive, trains an n-gram language model on them, evaluates it using perplexity, and generates new Darija sentences.
 
 
-## How to use it
+## Data
 
-Upload the notebook file to Google Colab, then run the cells from top to bottom.
-
-
-## Settings you can change
-
-We can choose the n-gram order, meaning how many words the model looks back at when predicting the next word. we choose 3 as default.
-
-Smoothing method
+Loads the files from Google Colab and stops as soon as it hits 500,000 lines total, then run the cells from top to bottom.
 
 
 ## Output
